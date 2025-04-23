@@ -2,10 +2,11 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
+import ScrollingImageStrip from "./ScrollingImageStrip";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="w-11/12 max-w-3xl text-center pt-20 my-auto mx-auto h-screen flex flex-col items-center justify-center gap-4 relative ">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -37,10 +38,10 @@ const Header = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
       >
-        I have expertise in both front-end and
-        back-end technologies. I also strongly focus on SEO optimization to
-        ensure web applications rank well in search engines. I specialize in
-        building responsive, scalable, and user-friendly web applications.
+        I have expertise in both front-end and back-end technologies. I also
+        strongly focus on SEO optimization to ensure web applications rank well
+        in search engines. I specialize in building responsive, scalable, and
+        user-friendly web applications.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
@@ -57,13 +58,14 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/sample-resume.pdf"
+          href="/my-resume_2.pdf"
           download
           className="px-10 py-3 rounded-full border-gray-500 flex items-center gap-2 bg-white  dark:text-black"
         >
           my-resume <Image src={assets.download_icon} alt="" />
         </motion.a>
       </div>
+      <ScrollingImageStrip />
     </div>
   );
 };
