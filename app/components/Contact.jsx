@@ -134,7 +134,7 @@ const Contact = () => {
             🎉 Thank You!
           </h3>
           <p className="text-green-950 dark:text-gray-300 mb-4">
-            Thanks for getting in touch! I will get back to you shortly.
+            Thanks for getting in touch! I will get back to you soon.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             Redirecting to the top...
