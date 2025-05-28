@@ -1,4 +1,4 @@
-import { assets } from "@/assets/assets";
+import { assets } from "../../assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
@@ -58,8 +58,8 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/my-resume_2.pdf"
-          download
+          href="/sample-resume.pdf"
+          download="gopal-resume.pdf"
           className="px-10 py-3 rounded-full border-gray-500 flex items-center gap-2 bg-white  dark:text-black"
         >
           my-resume <Image src={assets.download_icon} alt="" />

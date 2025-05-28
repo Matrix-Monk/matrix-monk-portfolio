@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
-import { imageSources } from "@/assets/assets";
+import { imageSources } from "../../assets/assets";
 
 
 

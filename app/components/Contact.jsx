@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { assets } from "@/assets/assets";
+import { assets } from "../../assets/assets";
 
 const formSecret = process.env.NEXT_PUBLIC_WEB3FORM_SECRET;
 

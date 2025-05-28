@@ -108,7 +108,7 @@ export const workData = [
   {
     title: "HypeQueue",
     description: "Crowd-Powered Music Queue",
-    link: "https://hypequeue.vercel.app",
+    link: "https://hypequeue.onrender.com",
     bgImage: "/hypequeue.png",
   },
   {
@@ -121,7 +121,7 @@ export const workData = [
     title: "CollabBoard",
     description: "A shared space for limitless creativity",
     bgImage: "/collabboard.png",
-    link: "https://github.com/Matrix-Monk/CollabBoard",
+    link: "https://collabboard-sand.vercel.app",
   },
   {
     title: "My-portFolio",
